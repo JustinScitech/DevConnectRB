@@ -6,6 +6,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'DevConnect',
   description: 'Helping Roblox Developers Find The Right Studios',
+  icons: {
+    icon: '/icon.ico',
+  },
 }
 
 export default function RootLayout({ children }) {
