@@ -11,7 +11,7 @@ const AnimatedText = ({sentence, styling}) => {
         visible: {opacity:1, y:0, transition: {type: "spring", damping: 10, stiffness: 120}}
     }
     return(
-        <motion.div className = "overflow-hidden flex" variants = {container} initial = "hidden" animate = "visible">
+        <motion.div className = "overflow-hidden flex break-all flex-wrap" variants = {container} initial = "hidden" animate = "visible">
             {words.map((word, index) => (
                 <motion.span className = {styling} variants = {child}style={{marginRight: "5px"}} key= {index}>
                     {word}

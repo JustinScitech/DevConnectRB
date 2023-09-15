@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body className="relative">
-      <div className="h-screen flex flex-row items-stretch justify-start">
+      <div className="h-screen flex flex-row justify-start">
           <Sidebar/>
           {children}
         </div>
