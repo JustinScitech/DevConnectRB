@@ -22,3 +22,5 @@ const AnimatedText = ({sentence, styling}) => {
 };
 
 export default AnimatedText;
+
+
