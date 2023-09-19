@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Search from '@/components/Search/Search'
 import AnimatedText from '@/components/Search/AnimatedText'
 import {motion} from 'framer-motion';
+import Link from 'next/link';
 export default function Home() {
   const container = {
     hidden: {opacity: 0, scale: 0}, visible: {opacity: 1, scale:1, transition: {type: "spring", damping: 10, stiffness: 120}}
@@ -23,7 +24,7 @@ export default function Home() {
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
       <motion.div className = "flex" variants = {container} initial = "hidden" animate = "visible">
         <a
-          href="https://discord.gg/nzzn9Urqed"
+          href="https://discord.gg/DRUxnqv9Gk"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -42,7 +43,7 @@ export default function Home() {
 
         <motion.div className = "flex" variants = {container} initial = "hidden" animate = "visible">
         <a
-          href="https://discord.gg/nzzn9Urqed"
+          href="https://discord.gg/DRUxnqv9Gk"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"

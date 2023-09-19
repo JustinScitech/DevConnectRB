@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 import logo from "@/public/devconnectlogo.png"
 import Link from "next/link";
 
-const AnimatedButtonsNavbar = (sentence, styling, link) => {
+const AnimatedButtonsNavbar = ({ sentence, styling, link }) => {
   const container = {
     hidden: { opacity: 0, scale: 0 },
     visible: {

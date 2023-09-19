@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import {FaSearch} from 'react-icons/fa';
 import {motion} from "framer-motion"
 import logo from "@/public/devconnectlogo.png"
-import AnimatedButtonsNavbar from './AnimationsButtonNavbar';
+import AnimatedButtonsNavbar from './AnimatedButtonsNavbar';
 import Image from 'next/image';
 const Navbar = () => {
     return (
@@ -15,36 +15,31 @@ const Navbar = () => {
           
           <div className="flex w-full items-start justify-between">
             <button>
-              <Image src={logo} alt="logo" width={150} height={150} />
+              <Image src={logo} alt="logo" width={70} height={70} />
             </button>
     
             <div className="flex flex-row items-center justify-center gap-4 pt-4 text-center">
               <AnimatedButtonsNavbar
                 sentence="Home"
                 styling="text-white"
-                link=""
+                link="/"
               />
         
               <AnimatedButtonsNavbar
-                sentence="Annotate"
+                sentence="Find Devs"
                 styling="text-white"
-                link=""
+                link="/"
               />
               <AnimatedButtonsNavbar
-                sentence="Process"
-                styling="text-white"
-                link=""
-              />
-              <AnimatedButtonsNavbar
-                sentence="Run Model"
+                sentence="Find Studios"
                 styling="text-white"
                 link="/"
               />
     
                <AnimatedButtonsNavbar
-                sentence="Add Wallet"
+                sentence="Post"
                 styling="text-white"
-                link=""
+                link="/"
               />
             </div>
           </div>
