@@ -1,4 +1,4 @@
-<img src="https://github.com/JustinScitech/devconnectrb/assets/56651128/bd0e15a7-8c34-46f4-9487-cd55c37c961a" width="200" height="200">
+<img src="https://github.com/JustinScitech/DevConnectRB/assets/56651128/17ff3aad-8713-4a09-9348-80bbb99d29a0" width="200" height="200">
 
 # DevConnect
 ## Optimizing Roblox developer and game developer networking opportunities
