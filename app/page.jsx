@@ -23,7 +23,7 @@ export default function Home() {
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
       <motion.div className = "flex" variants = {container} initial = "hidden" animate = "visible">
         <a
-          href=""
+          href="https://discord.gg/nzzn9Urqed"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
@@ -35,14 +35,14 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about DevConnect and our upcoming API in development!
+            Find in-depth information about DevConnect on our discord server!
           </p>
         </a>
         </motion.div>
 
         <motion.div className = "flex" variants = {container} initial = "hidden" animate = "visible">
         <a
-          href=""
+          href="https://discord.gg/nzzn9Urqed"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
