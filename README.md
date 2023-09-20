@@ -19,6 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Learn More
 
-You can also find further information on the website: https://devconnectrb.vercel.app/
+You can also find further information on the website: https://devconnectrb.tech/
 
 Further documentation and updates will be made!
